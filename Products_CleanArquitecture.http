@@ -1,0 +1,6 @@
+@Products_CleanArquitecture_HostAddress = http://localhost:5104
+
+GET {{Products_CleanArquitecture_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
