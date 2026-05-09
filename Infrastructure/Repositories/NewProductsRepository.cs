@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Products_CleanArquitecture.Domain.Entities;
+﻿using Products_CleanArquitecture.Domain.Entities;
 using Products_CleanArquitecture.Domain.Interfaces;
 using Products_CleanArquitecture.Infrastructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Data.SqlClient;
 
 namespace Products_CleanArquitecture.Infrastructure.Repositories

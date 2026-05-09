@@ -23,6 +23,9 @@ namespace Products_CleanArquitecture.Infrastructure
             services.AddScoped<IEdtProductsRepository, EditProductsRepository>();
             services.AddScoped<INewProductsRepository, NewProductsRepository>();
             services.AddScoped<IDeleteProductsRepository, DeleteProductsRepository>();
+            services.AddScoped<IEditCustomers, EditCustomersRepository>();
+            services.AddScoped<INewCustomersRepoistory, NewCustomersRepository>();
+            services.AddScoped<IDeleteCustomersRepository, DeleteCustomersRepository>();
 
             return services;
         }
